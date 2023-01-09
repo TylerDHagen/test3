@@ -1,0 +1,99 @@
+/*This file mostly controls the visually look of the game.
+Some properties like position and size get set by the game
+Feel free to play with things like color or font
+*/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#game {background-image:url("https://vignette.wikia.nocookie.net/starwars/images/e/ec/Twilight_of_the_Apprentice_PoP.png/revision/latest?cb=20180831022756");
+  margin: 10px;
+  border: 5px solid black;
+  left: 0;
+  position: absolute;
+  background-size: cover;
+}
+
+#left-paddle {
+  background-color: white;
+  left: 10px;
+  height: 25px;
+}
+
+#right-paddle {
+  background-color: red;
+  right: 10px;
+}
+
+#instructions {
+  display: none;
+  bottom: 0;
+  position: absolute;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#errors-debug {
+  display: none;
+  bottom: 0;
+  position: absolute;
+  margin: 10px;
+  padding-left: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#errors {
+  color: red;
+  font-weight: 700;
+}
+
+#computer-control-state {
+  font-weight: 700;
+}
+
+#mouse-control-state {
+  font-weight: 700;
+}
+
+#mute-state {
+  font-weight: 700;
+}
+
+#volume-state {
+  font-weight: 700;
+}
+
+.paddle {
+  top: 0;
+  width: 10px;
+  position: absolute;
+}
+
+.ball {
+  background-image: url(https://media.sketchfab.com/models/cb3d49a6261a4913817e8e00d6ab6e43/thumbnails/6d93ac6bc97e4e1c90da3b4d75a3a4ed/761deeba17c3456eb6f417035a17f972.jpeg);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.score {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+}
+
+#left-score {
+  left: 1%;
+}
+
+#right-score {
+  right: 1%;
+}
