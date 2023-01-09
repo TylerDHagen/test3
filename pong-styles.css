@@ -73,7 +73,7 @@ body {
 }
 
 .ball {
-  background-image: url(https://media.sketchfab.com/models/cb3d49a6261a4913817e8e00d6ab6e43/thumbnails/6d93ac6bc97e4e1c90da3b4d75a3a4ed/761deeba17c3456eb6f417035a17f972.jpeg);
+  background-image: url(/image/holocron.jpeg);
   background-size: contain;
   width: 20px;
   height: 20px;
